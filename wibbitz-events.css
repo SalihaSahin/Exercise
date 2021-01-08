@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+h1.header{
+    
+    font-size:55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3.header3{
+    font-weight: bold;
+    font-size: 35px;
+}
+.card{
+    border:none;
+}
+img{
+    border-radius:6px;
+}
+
+.card a{
+    color: #000;
+    transition: 0.3s color;
+    font-weight: bold;
+}
+.card a.read:hover{
+    color:  #0d6efd;
+}
+.card .card-text:hover{
+    text-decoration: underline;
+}
+.card .card-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.event .col-sm-4{
+    margin-bottom:80px;
+}
+
+.footer-menu p.text{
+    font-size: 25px;
+    
+}
+ i{
+    margin-left: 10px;
+    font-size: 30px;
+    color: #9d9d9d;
+}
+i:hover{
+    color: black;
+}
+.lang{
+    margin-top:200px ;
+}
+.lang span.choose{
+    font-weight: bold;
+
+}
+
+.list li:first-child{
+    font-weight: bold;
+
+}
+.list li{
+    margin-top: 10px;
+    list-style: none;
+}
